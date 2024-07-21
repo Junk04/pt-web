@@ -10,22 +10,10 @@ body {
 .container {
     margin-top: 20px;
 }
-.row {
-}
-.col-8 {
-}
-.col-4 {
-}
-.col-3.nav_logo {
-}
-.col-9 {
-}
 .nav_text {
     display: flex;
     align-items: center;
     justify-content: right;
-}
-.img_size {
 }
 .title_photo {
     text-align: center;
@@ -48,6 +36,9 @@ body {
     text-align: center;
 }
 
+.index {
+    text-align: center;
+}
 #myButton{
     border: none;
     border-radius: 15px;
