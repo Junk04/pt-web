@@ -14,13 +14,16 @@
     <div class="container">
         <div class="row">
             <div class="col-12 index">
-                <h1>Авторизуйтесь!</h1>
                 <?php
                 if (!isset($_COOKIE['User'])) {
                     ?>
+                        <h1>Авторизуйтесь!</h1>
                         <a href="/registration.php">Зарегистрируйтесь</a> или <a href="/login.php">войдите</a>
                     <?php
                     } else {
+                        ?>
+                        <h1>Страница постов</h1>
+                        <?php
                         $link = mysqli_connect('127.0.0.1', 'root', 'Globalelite228', 'first');
                         $sql = "SELECT * FROM posts";
                         $res = mysqli_query($link, $sql);
