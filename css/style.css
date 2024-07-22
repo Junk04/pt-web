@@ -39,6 +39,32 @@ body {
 .index {
     text-align: center;
 }
+
+.btn_red{
+    border: none;
+    border-radius: 15px;
+    width: 200px;
+    height: 50px;
+    background-color: #a30f0f;
+    color: #F8F8FF;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+
+.form {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+
+
 #myButton{
     border: none;
     border-radius: 15px;
@@ -52,4 +78,8 @@ body {
 #demo img {
     margin-top: 20px;
     width: 25%;
+}
+
+.hello{
+    text-align: center;
 }
